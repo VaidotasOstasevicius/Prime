@@ -21,8 +21,8 @@ and easier to read.
 
 What I am pleased with:
 
-I think i've written a pretty good prime algorithm, while it is still O(n^2), it skips
-the unecessary calculations by discarding even numbers. 
+I think i've written a pretty good prime algorithm,because it skips
+the unecessary calculations by discarding even numbers it becomes O(n log n) rather than O(n^2). 
 
 What I would do if I had more time:
 
