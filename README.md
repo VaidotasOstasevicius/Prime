@@ -15,6 +15,16 @@ I use netBeans, to run this project I would:
 Once that is done you will be asked to enter the number of primes, 
 enter it in the console. Once that is done the program should start running.
   
-Note: I have very litte experience in formatting tables. The formating code could be 
+Note: I have litte experience in formatting tables. The formating code could be 
 refactored using a java table formatting library which would make the code simpler
 and easier to read.
+
+What I am pleased with:
+
+I think i've written a pretty good prime algorithm, while it is still O(n^2), it skips
+the unecessary calculations by discarding even numbers. 
+
+What I would do if I had more time:
+
+Most likely look at the formatting again, while it does what it's supposed to do
+I think I could write it better given more time.
