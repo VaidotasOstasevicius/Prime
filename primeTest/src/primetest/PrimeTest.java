@@ -61,10 +61,10 @@ public class PrimeTest {
         int multCount2 = 0;                                   //  Will be used to assign different array values to the second number 
         int primeMult;                                        //  Used to store the answer to N*N
         int printCounter = 0;                                 //  Used to print out the top line of the table
-        String tableFormat3 = " %6s |%n";                     //
-        String tableFormat2= " %6s |";                        //  Various formating values, %n is used for compatability reasons since \n is windows based
-        String tableFormat4 = "| %6s |";                      //
-        System.out.format("|        |");                      //
+        String tableFormat3 = " %10s |%n";                    //
+        String tableFormat2= " %10s |";                       //  Various formating values, %n is used for compatability reasons since \n is windows based
+        String tableFormat4 = "| %10s |";                     //
+        System.out.format("|            |");                  //
                      
         while(printCounter < primes.size()){
             if(printCounter + 1 == primes.size()){
